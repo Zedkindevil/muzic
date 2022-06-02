@@ -14,5 +14,5 @@ def is_admin(func):
         if is_admin:
             await func(event, _s)
         else:
-            await event.reply("teri bass ki nahi hai admeme ko bol!")
+            await event.reply("teri bass ki nahi hai admeme ko bol! 🤣")
     return a_c
